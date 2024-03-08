@@ -1,0 +1,38 @@
+# Node.js User Management System
+
+This is a simple Node.js application for managing users. It provides basic functionality to create users, list users, and view user details.
+
+## Features
+
+- Create a new user by submitting a form with a username.
+- View a list of all users.
+- Each user is stored in a text file (`users.txt`) with one user per line.
+
+## Requirements
+
+- Node.js installed on your machine.
+
+## Installation
+
+1. Clone the repository:
+https://github.com/prabha2612/Nodejs_assign1.git
+
+2. Navigate to the project directory:
+cd Assign1
+
+## Usage
+
+1. Start the server:
+node app.js
+
+
+2. Open a web browser and navigate to `http://localhost:3000`.
+
+3. You can now create users by visiting `/create` and listing users by visiting `/users`.
+
+## File Structure
+
+- `app.js`: Main entry point of the application. Creates an HTTP server and handles requests.
+- `routes.js`: Contains request handling logic. Defines routes for creating users, adding users, and listing users.
+- `users.txt`: Text file to store user data.
+
